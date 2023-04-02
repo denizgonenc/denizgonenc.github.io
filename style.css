@@ -68,6 +68,14 @@ a:hover{
     color: white;
 }
 
+.portfolio a{
+    margin: 0;
+}
+
+.portfolio a:hover{
+    color:gray;
+}
+
 /* ABOUT ME */
 .about-me {
     background-color: #f3f3f3;
