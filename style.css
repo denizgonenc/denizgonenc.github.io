@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to top, #000 20%, #fff 100%);
+    background-attachment:scroll;
+}
+
+div {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.button {
+    border: none;
+    background-color: #858585;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    transition-duration: 0.4s;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+
+
+.home img {
+    background-color: white;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.home a{
+    padding-left: 20px;
+    transition-duration: 0.4s;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a:hover{
+    color: white;
+}
+
+/* ABOUT ME */
+.about-me {
+    background-color: #f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 50rem;
+    max-width: 50rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+}
+
+
+.about-me h2 {
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    background-color: #f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    width: 50rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+    scroll-behavior: smooth;
+    height: 55vh;
+}
+
+.portfolio h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* these are the project/portfolio items */
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 0;
+}
+
+.item {
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.item h3{
+    padding-left: 2.5rem;
+    text-align: left;
+}
+
+.item button {
+    margin-right: 2.5rem;
+    margin-top: -10px;
+}
+
+
+/* these are the items inside the portfolio items */
+.container {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.container img {
+    max-width: 30%;
+    margin-right: 2.5rem;
+  }
+
+.container p {
+    margin-top: 0;
+}
+
+
+/* FOOTER */
+footer{
+    margin-top: 8rem;
+    color: #d7d7d7;
+    text-align: center;
+    font-size: 12px;
+}
